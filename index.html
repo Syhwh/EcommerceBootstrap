@@ -19,33 +19,35 @@
                     <strong>E-commerce</strong>
                 </a>
                 <div class="d-flex align-items-center">
-                    <span class="text-white pr-3 d-md-none d-lg-inline"> <i class="text-white fa fa-shopping-cart d-none d-lg-inline"></i> Cart </span>
+                    <span class="text-white pr-3 d-md-none d-lg-inline"> <i
+                            class="text-white fa fa-shopping-cart d-none d-lg-inline"></i> Cart </span>
                     <button type="button" class=" btn  btn-outline-light btn-sm d-none d-lg-block">Exit</button>
-                    <button class="  navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarHeader"
-                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">                        
-                    <span class="navbar-toggler-icon "></span>
+                    <button class="  navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                        data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon "></span>
                     </button>
                 </div>
             </div>
         </div>
     </header>
 
-<div class="container">
+    <div class="container">
         <div class="row">
-           
-            <div class=" col-lg-3  ">  
-                    <div class="pt-3 ">
-                            <form class="form-group ">                   
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Search T-shirts">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fa fa-search"></i></div>
-                                    </div>
-                                </div>
-                            </form>
+
+            <div class="col-lg-3">
+                <div class="pt-3 ">
+                    <form class="form-group ">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search T-shirts">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><i class="fa fa-search"></i></div>
+                            </div>
                         </div>
-                    
-    
+                    </form>
+                </div>
+
+
                 <div class="sidebar  d-none d-lg-block ">
                     <h4>Categories</h4>
                     <ul class="list-group  ">
@@ -127,10 +129,10 @@
                                 <img src="./images/camiseta-1.jpg" class="card-img-top" alt="tshirt1">
                                 <div class="card-body">
                                     <h5 class="card-title">Hipster Ultimate</h5>
-                                    <p class="card-text">Ideal tshirt for hipsters</p>
+                                    <p class="card-text">Ideal t-shirt for hipsters</p>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <button type="button" class="btn btn-sm btn-primary">$229<i
-                                                class="fa fa-shopping-cart"></i></button>
+                                        <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                            data-target="#buyModal">$229 <i class="fa fa-shopping-cart"></i></button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary"
                                             data-toggle="modal" data-target="#Tshirt1">Details</button>
                                     </div>
@@ -141,11 +143,11 @@
                             <div class="card mb-4 shadow-sm">
                                 <img src="./images/camiseta-2.jpg" class="card-img-top" alt="tshirt1">
                                 <div class="card-body">
-                                    <h5 class="card-title">Hipster Ultimate</h5>
-                                    <p class="card-text">Ideal tshirt for hipsters</p>
+                                    <h5 class="card-title">On Motion Live</h5>
+                                    <p class="card-text">A t-shirt perfect for hiking</p>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <button type="button" class="btn btn-sm btn-primary">$229<i
-                                                class="fa fa-shopping-cart"></i></button>
+                                        <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                            data-target="#buyModal">$229 <i class="fa fa-shopping-cart"></i></button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary"
                                             data-toggle="modal" data-target="#Tshirt1">Details</button>
                                     </div>
@@ -153,29 +155,29 @@
                             </div>
                         </div>
                         <div class="col-6 col-md-4">
-                                <div class="card mb-4 shadow-sm">
-                                    <img src="./images/camiseta-3.jpg" class="card-img-top" alt="tshirt1">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Hipster Ultimate</h5>
-                                        <p class="card-text">Ideal tshirt for hipsters</p>
-                                        <div class="d-flex justify-content-between align-items-center">
-                                            <button type="button" class="btn btn-sm btn-primary">$229<i
-                                                    class="fa fa-shopping-cart"></i></button>
-                                            <button type="button" class="btn btn-sm btn-outline-secondary"
-                                                data-toggle="modal" data-target="#Tshirt1">Details</button>
-                                        </div>
+                            <div class="card mb-4 shadow-sm">
+                                <img src="./images/camiseta-3.jpg" class="card-img-top" alt="tshirt1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Underground Max</h5>
+                                    <p class="card-text">The Underground t-shirt</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                            data-target="#buyModal">$229 <i class="fa fa-shopping-cart"></i></button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            data-toggle="modal" data-target="#Tshirt1">Details</button>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-6 col-md-4">
+                        </div>
+                        <div class="col-6 col-md-4">
                             <div class="card mb-4 shadow-sm">
                                 <img src="./images/camiseta-4.jpg" class="card-img-top" alt="tshirt1">
                                 <div class="card-body">
-                                    <h5 class="card-title">Hipster Ultimate</h5>
-                                    <p class="card-text">Ideal tshirt for hipsters</p>
+                                    <h5 class="card-title">Santo Domingo</h5>
+                                    <p class="card-text">A t-shirt of this great team</p>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <button type="button" class="btn btn-sm btn-primary">$229<i
-                                                class="fa fa-shopping-cart"></i></button>
+                                        <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                            data-target="#buyModal">$229 <i class="fa fa-shopping-cart"></i></button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary"
                                             data-toggle="modal" data-target="#Tshirt1">Details</button>
                                     </div>
@@ -186,11 +188,11 @@
                             <div class="card mb-4 shadow-sm">
                                 <img src="./images/camiseta-5.jpg" class="card-img-top" alt="tshirt1">
                                 <div class="card-body">
-                                    <h5 class="card-title">Hipster Ultimate</h5>
-                                    <p class="card-text">Ideal tshirt for hipsters</p>
+                                    <h5 class="card-title">On Fire</h5>
+                                    <p class="card-text">Ideal t-shirt for a beach day </p>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <button type="button" class="btn btn-sm btn-primary">$229<i
-                                                class="fa fa-shopping-cart"></i></button>
+                                        <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                            data-target="#buyModal">$229 <i class="fa fa-shopping-cart"></i></button>
                                         <button type="button" class="btn btn-sm btn-outline-secondary"
                                             data-toggle="modal" data-target="#Tshirt1">Details</button>
                                     </div>
@@ -205,8 +207,66 @@
             </div>
 
         </div>
-        <!--MODAL-->
+        <!--MODAL Buy-->
+
         <!-- Modal -->
+        <div class="modal fade" id="buyModal" tabindex="-1" role="dialog" aria-labelledby="buyModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="buyModalLabel">Add to Cart</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+
+                        <div class="card mb-3 border-0" style="max-width: 540px;">
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="./images/camiseta-1.jpg" class="card-img border" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Price: <strong>299</strong> </h5>
+                                        <div class=" dflex direction-row">
+                                            <span>Ratings: </span">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                        </div>
+                                        <div class="pt-1 pb-1">
+                                            <span class="badge badge-warning ">Hipster</span>
+                                            <span class="badge badge-secondary">Sport</span>
+                                        </div>
+                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!-- Modal Details -->
         <div class="modal fade" id="Tshirt1" tabindex="-1" role="dialog" aria-labelledby="Tshirt1" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -217,7 +277,8 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <div class="alert alert-primary" role="alert"><strong> <i class="fa fa-info-circle" aria-hidden="true"></i>  sold out!</strong> </div>
+                        <div class="alert alert-primary" role="alert"><strong> <i class="fa fa-info-circle"
+                                    aria-hidden="true"></i> sold out!</strong> </div>
                         <div class="card mb-3 border-0" style="max-width: 540px;">
                             <div class="row no-gutters">
                                 <div class="col-md-4">
@@ -225,18 +286,18 @@
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h5 class="card-title">Price: <strong>299</strong> </h5>                                        
-                                        <div class=" dflex direction-row" >
-                                            <span>Ratings: </span"> 
-                                            <i class="fas fa-star" ></i>
-                                            <i class="fas fa-star" ></i>
-                                            <i class="fas fa-star" ></i>
-                                            <i class="fas fa-star" ></i>
-                                            <i class="far fa-star" ></i>
+                                        <h5 class="card-title">Price: <strong>299</strong> </h5>
+                                        <div class=" dflex direction-row">
+                                            <span>Ratings: </span">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="far fa-star"></i>
                                         </div>
                                         <div class="pt-1 pb-1">
-                                                <span class="badge badge-warning ">Hipster</span>
-                                                <span class="badge badge-secondary">Sport</span>
+                                            <span class="badge badge-warning ">Hipster</span>
+                                            <span class="badge badge-secondary">Sport</span>
                                         </div>
                                         <a href="#"><i class="fa fa-heart"> </i> Wish List</a>
                                         <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small>
@@ -263,23 +324,25 @@
                                     elit. Accusantium consequatur voluptas aperiam ipsum velit iusto, ipsam tempora
                                     exercitationem impedit, libero fugiat nemo quae sed error et nihil corporis
                                     assumenda officia?</div>
-                                <div class="tab-pane fade" id="nav-profile" role="tabpanel"  aria-labelledby="nav-profile-tab">
-                                <!-- Commentaries-->
-                                <div class="card pt-2" >
+                                <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                    aria-labelledby="nav-profile-tab">
+                                    <!-- Commentaries-->
+                                    <div class="card pt-2">
                                         <div class="card-header">
-                                          German has commented two days ago
+                                            German has commented two days ago
                                         </div>
                                         <ul class="list-group list-group-flush">
-                                          <li class="list-group-item">This T-shirt is amazing, I want it.</li>
-                                          
+                                            <li class="list-group-item">This T-shirt is amazing, I want it.</li>
+
                                         </ul>
-                                      </div>
-                                
-                                      <div class="form-group pt-2">
-                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Insert your commentary"></textarea>
-                                          </div>
-                                          <button type="button" class="btn btn-secondary" >Publish</button>
                                     </div>
+
+                                    <div class="form-group pt-2">
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                            placeholder="Insert your commentary"></textarea>
+                                    </div>
+                                    <button type="button" class="btn btn-secondary">Publish</button>
+                                </div>
 
                             </div>
                         </div>
